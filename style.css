@@ -12,11 +12,11 @@ body{
 }
 header{
     text-align: center;
-    height: 140px;
+    height: auto;
     background-image: linear-gradient(to bottom, rgb(165, 219, 165), rgb(32, 122, 32));
     color: white;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     font-family: 'Bebas Neue';
 }
 header>h1{
@@ -24,14 +24,17 @@ header>h1{
 }
 header>p{
     font-size: 2em;
+    padding: 0px;
+    margin-bottom: 0px;
 }
 nav{
     background-color: rgb(32, 122, 32);
-    padding: 10px 10px 0px 0px;
+    padding: 10px 00px 0px 0px;
     text-align: left;
 }
 nav>a{
     text-decoration: none;
+    padding-left: 10px;
     color: white;
     padding-right: 25px;
     padding-top: 10px;
@@ -45,6 +48,7 @@ main{
     max-width: 900px;
     background-color: white;
     padding: 3px 15px;
+    padding-left: 0%;
     box-shadow: 7px 3px 7px rgba(0, 0, 0, 0.247);
 }
 main img.peq{
@@ -53,17 +57,20 @@ main img.peq{
     margin: auto;
 }
 main img{
-    width: 100%;
+    width: 60%;
+    margin: auto;
+    display:block;
 }
 
 main>h1{
     font-family: 'Idroid';
     color: rgb(27, 90, 27);
     padding: 2px;
+    left: 0;
     background-image: linear-gradient(to right, rgba(126, 175, 126, 0.671), white);
 }
 main>p{
-    padding: 2px;
+    padding-left: 15px;
 }
 .extra{
     margin: auto;
@@ -82,8 +89,8 @@ main>p{
     background-color: darkgreen;
 }
 .video>iframe{
-    min-width: 280px;
-    max-width: 520px;
+    min-width: 80px;
+    max-width: 420px;
     display: block;
     margin: auto;
 }
@@ -91,7 +98,13 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
-    padding: 5px;}
+    min-width: 97%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    padding: 8px;
+}
 footer>p{
     margin: 0px;
+    
 }
